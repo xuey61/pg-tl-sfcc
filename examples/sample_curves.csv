@@ -1,0 +1,6 @@
+label,Sand,Silt,Clay,SOM,BD,Salinity,Porosity,Saturation,PL,LL,S_a,T_min_c,T_max_c,n_points
+Organic low salinity,10,60,30,0.12,800,0.05,0.65,0.95,28,52,40,-20,2,150
+Silty mineral,20,65,15,0.03,1300,0.10,0.50,0.90,18,34,20,-20,2,150
+Clayey saline,10,40,50,0.01,1500,0.35,0.43,0.95,25,48,55,-20,2,150
+Sandy low SOM,70,20,10,0.005,1550,0.02,0.40,0.80,10,18,8,-20,2,150
+Organic saline,8,62,30,0.18,750,0.45,0.70,0.95,32,60,45,-20,2,150

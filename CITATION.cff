@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or model weights, please cite the associated manuscript."
+title: "PG-TL SFCC Inference Package"
+authors:
+  - name: "PG-TL SFCC contributors"
+type: software
+license: MIT
+version: 0.1.0
+date-released: 2026-06-14

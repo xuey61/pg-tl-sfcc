@@ -1,0 +1,14 @@
+include README.md
+include MODEL_CARD.md
+include LICENSE
+include models/model.pth
+include models/scaler_stats.json
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod]
+recursive-exclude * *.csv
+include examples/sample_curves.csv
+recursive-exclude * *.xlsx
+recursive-exclude * *.xls
+recursive-exclude * *.nc
+recursive-exclude * *.npz
+recursive-exclude * *.mph

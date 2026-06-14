@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Keep the released model artifact, but avoid accidental data drops.
+!models/model.pth
+!models/scaler_stats.json
+*.csv
+*.xlsx
+*.xls
+*.nc
+*.npz
+*.mph
+*.mat
+!examples/sample_curves.csv
+
+# Local example outputs.
+sfcc_curve_example.csv

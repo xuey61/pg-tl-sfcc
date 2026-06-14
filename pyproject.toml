@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgtl-sfcc"
+version = "0.1.0"
+description = "Inference package for a PG-TL soil freezing characteristic curve model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.23",
+    "torch>=2.0",
+]
+keywords = [
+    "permafrost",
+    "soil-freezing-characteristic-curve",
+    "transfer-learning",
+    "van-genuchten",
+]
+
+[tool.setuptools]
+packages = ["pgtl_sfcc"]
+include-package-data = true
+
+[project.scripts]
+pgtl-sfcc-gui = "pgtl_sfcc.gui:main"

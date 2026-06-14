@@ -1,0 +1,47 @@
+{
+  "feature_order": [
+    "Sand",
+    "Silt",
+    "Clay",
+    "SOM",
+    "BD",
+    "Salinity",
+    "Porosity",
+    "Saturation",
+    "PL",
+    "LL",
+    "S_a"
+  ],
+  "transforms": {
+    "SOM": "log1p(SOM * 100.0)",
+    "S_a": "log1p(S_a)"
+  },
+  "n_samples_used_to_fit": 4687,
+  "mean": [
+    39.285974038688764,
+    42.66819023399744,
+    18.045835727313797,
+    0.0894579373240776,
+    1422.1285148895204,
+    0.15587641163924978,
+    0.4589828827322972,
+    0.6999484484697889,
+    15.969831072403496,
+    23.733208855929117,
+    2.964838763226954
+  ],
+  "scale": [
+    39.180221889268374,
+    32.47701775848355,
+    23.17761894423023,
+    0.4015925547303752,
+    321.09831322118293,
+    0.26392376592673583,
+    0.10923407438898779,
+    0.30425888273266943,
+    11.331901414053059,
+    22.34632379576855,
+    0.9046592006358051
+  ],
+  "source_note": "Derived from the private SFCC training table using the scikit-learn StandardScaler convention. Raw training samples are not included in this public release package."
+}
